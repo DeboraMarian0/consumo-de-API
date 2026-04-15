@@ -1,4 +1,4 @@
-# 🇧🇷 Consulta de Feriados Nacionais
+# Consulta de Feriados Nacionais
 
 Este projeto foi desenvolvido para a disciplina de **Desenvolvimento Web II**. O objetivo principal é praticar o **consumo de APIs REST** e a manipulação dinâmica do DOM utilizando JavaScript.
 
