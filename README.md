@@ -39,6 +39,6 @@ Neste projeto, coloquei em prática conceitos fundamentais de desenvolvimento fr
 
 ## 📂 Como executar o projeto
 
-1. Clone o repositório:
+Clone o repositório:
    ```bash
    git clone https://github.com/DeboraMarian0/consumo-de-API.git
