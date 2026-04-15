@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Feriados Nacionais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="img/logo.png" alt="Logo" class="img-logo">
+            </div>
+
+            <div class="estilo-detalhes-header">
+                <h1>FERIADOS NACIONAIS</h1>
+                <a href="https://brasilapi.com.br/docs#tag/Feriados-Nacionais">API</a>
+            </div>
+        </nav>
+            
+        
+    </header>
+    <main>
+        <section class="banner">
+            
+        </section>
+
+        <section class="calendario">
+            <div class="container">
+                <div class="formulario">
+                    <div class="ano">
+                        <div class="icone-calendario">
+                            <label for="ano">Selecione o ano: </label>
+                            <img src="img/calend-lupa.png" alt="Calendário" width="50">
+                        </div>
+                        <input type="number" name="ano" id="ano" class="form-control" placeholder="Digite o ano">
+                    </div>
+                   
+
+                    <span class="erro">
+
+                    </span>
+
+                    <div class="btn-pesquisa">
+                        <button type="button" onclick="chamarAPI()" class="btn btn-success">Pesquisar</button>                    </div>
+                    </div>
+
+                    <div class="resultado">
+                        <h5></h5>
+                        
+                        <ul class="lista">
+
+                        </ul>
+                        
+                    </div> 
+                </div>
+            </div>
+           
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Feriados Nacional. Todos os direitos reservados.</p>
+            <p>Desenvolvido por <a href="https://github.com/DeboraMarian0" target="_blank">Debora Mariano</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
