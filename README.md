@@ -41,4 +41,4 @@ Neste projeto, coloquei em prática conceitos fundamentais de desenvolvimento fr
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/DeboraMarian0/NOME-DO-SEU-REPOSITORIO.git](https://github.com/DeboraMarian0/NOME-DO-SEU-REPOSITORIO.git)
+   git clone https://github.com/DeboraMarian0/consumo-de-API.git
