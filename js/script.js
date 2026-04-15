@@ -1,5 +1,3 @@
-
-
 function chamarAPI() {
     var anoSelec = document.getElementById('ano').value
     var erro = document.querySelector('.erro')
