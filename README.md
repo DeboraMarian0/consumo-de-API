@@ -4,6 +4,7 @@ Este projeto foi desenvolvido para a disciplina de **Desenvolvimento Web II**. O
 
 A aplicação permite que o usuário consulte todos os feriados nacionais brasileiros de um ano específico (entre 1900 e 2199), exibindo os resultados de forma dinâmica.
 
+👉 **Acesse o site hospedado no Netlify aqui:** https://cons-api.netlify.app/
 
 ---
 
